@@ -1,24 +1,23 @@
-# V Quiz v2
+# V Quiz — iPhone Home Screen App
 
-## 포함 기능
-- 1~237 단어 데이터
-- 객관식 퀴즈
-- 반응 퀴즈: 5초 후 자동 공개 / 즉시 공개
-- Chapter 1~6 범위 선택
-- 직접 번호 범위 입력
-- 보기 역시 선택 범위 내부에서만 생성
-- 단어 번호 표시
-- V Point 수정 및 브라우저 저장
-- 모바일 대응
+현재 Apple Clean + 반응 퀴즈 안정화 + 범위 입력 개선 버전을 기반으로 만든
+iPhone 홈 화면 앱 버전입니다.
 
-## 실행
-VS Code에서 `index.html`을 Live Server로 실행하세요.
+추가:
+- Web App Manifest
+- iPhone 홈 화면 아이콘
+- standalone 앱 모드
+- Apple mobile web app 메타 태그
 
-## GitHub Pages 업데이트
-기존 저장소 폴더의 `index.html`, `style.css`, `app.js`, `data/words.json`을 이 버전으로 교체한 뒤:
+중요:
+- 이번 단계에서는 Service Worker를 넣지 않았습니다.
+- 이유: 이전 테스트의 캐시/업데이트 문제를 피하고, 현재 퀴즈 기능을 안정적으로 유지하기 위해서입니다.
+- iOS에서는 홈 화면 웹 앱 실행에 Service Worker가 필수는 아닙니다.
+- 오프라인 캐시는 앱 내용이 완성된 뒤 마지막에 붙일 수 있습니다.
 
+GitHub 반영:
 ```bash
 git add .
-git commit -m "Upgrade V Quiz range and reaction mode"
+git commit -m "Add iPhone app support"
 git push
 ```

@@ -4,37 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f4ef">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="V Quiz">
+  <link rel="manifest" href="manifest.webmanifest?v=20260726-app1">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=20260726-app1">
+
   <title>V Quiz</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260726-app1">
 </head>
 <body>
   <main class="app-shell">
     <header class="brand">
-      <div class="brand-mark">V</div>
-      <div>
+      <div class="brand-copy">
         <h1>V Quiz</h1>
-        <p>237 words · Ch.1–6</p>
+        <p>Vocabulary, refined.</p>
       </div>
     </header>
 
     <!-- HOME -->
     <section id="homeScreen" class="screen active">
       <div class="panel">
-        <p class="section-kicker">MODE</p>
+        <p class="section-kicker">퀴즈 방식</p>
         <div class="segmented" id="modeSelector">
-          <button class="segment active" data-mode="multiple">객관식</button>
-          <button class="segment" data-mode="reaction">반응 퀴즈</button>
+          <button type="button" class="segment active" data-mode="multiple">객관식</button>
+          <button type="button" class="segment" data-mode="reaction">반응 퀴즈</button>
         </div>
+        <p id="modeDescription" class="mode-description">뜻을 보고 정답을 고르는 기본 퀴즈</p>
 
-        <p class="section-kicker">RANGE</p>
+        <p class="section-kicker">범위</p>
         <div class="chapter-grid" id="chapterGrid">
-          <button class="chapter-chip active" data-chapter="all">전체</button>
-          <button class="chapter-chip" data-chapter="1">Ch.1</button>
-          <button class="chapter-chip" data-chapter="2">Ch.2</button>
-          <button class="chapter-chip" data-chapter="3">Ch.3</button>
-          <button class="chapter-chip" data-chapter="4">Ch.4</button>
-          <button class="chapter-chip" data-chapter="5">Ch.5</button>
-          <button class="chapter-chip" data-chapter="6">Ch.6</button>
+          <button type="button" class="chapter-chip active" data-chapter="all">전체</button>
+          <button type="button" class="chapter-chip" data-chapter="1">Ch.1</button>
+          <button type="button" class="chapter-chip" data-chapter="2">Ch.2</button>
+          <button type="button" class="chapter-chip" data-chapter="3">Ch.3</button>
+          <button type="button" class="chapter-chip" data-chapter="4">Ch.4</button>
+          <button type="button" class="chapter-chip" data-chapter="5">Ch.5</button>
+          <button type="button" class="chapter-chip" data-chapter="6">Ch.6</button>
         </div>
 
         <div class="range-card">
@@ -56,23 +62,23 @@
           <p class="range-note">숫자를 바꾸면 챕터 선택보다 직접 범위가 우선돼.</p>
         </div>
 
-        <p class="section-kicker">QUESTIONS</p>
+        <p class="section-kicker">문제 수</p>
         <div class="count-row" id="countSelector">
-          <button class="count-chip" data-count="10">10</button>
-          <button class="count-chip active" data-count="15">15</button>
-          <button class="count-chip" data-count="20">20</button>
-          <button class="count-chip" data-count="30">30</button>
+          <button type="button" class="count-chip" data-count="10">10</button>
+          <button type="button" class="count-chip active" data-count="15">15</button>
+          <button type="button" class="count-chip" data-count="20">20</button>
+          <button type="button" class="count-chip" data-count="30">30</button>
         </div>
 
         <div class="pool-info" id="poolInfo">출제 가능 237개</div>
-        <button id="startBtn" class="primary-btn">퀴즈 시작</button>
+        <button type="button" id="startBtn" class="primary-btn">퀴즈 시작</button>
       </div>
     </section>
 
     <!-- QUIZ -->
     <section id="quizScreen" class="screen">
       <div class="quiz-topbar">
-        <button id="exitBtn" class="ghost-btn">← 나가기</button>
+        <button type="button" id="exitBtn" class="ghost-btn">← 나가기</button>
         <span id="progressText">1 / 15</span>
       </div>
       <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
@@ -90,7 +96,7 @@
           <div id="timerRing" class="timer-ring">
             <span id="timerText">5</span>
           </div>
-          <button id="revealNowBtn" class="secondary-btn">지금 바로 보기</button>
+          <button type="button" id="revealNowBtn" class="secondary-btn">지금 바로 보기</button>
         </div>
 
         <div id="answerPanel" class="answer-panel hidden">
@@ -100,26 +106,26 @@
           <div class="vpoint-card">
             <div class="vpoint-head">
               <span>V POINT</span>
-              <button id="editVPointBtn" class="tiny-btn">수정</button>
+              <button type="button" id="editVPointBtn" class="tiny-btn">수정</button>
             </div>
             <div id="vPointDisplay" class="vpoint-text"></div>
 
             <div id="vPointEditor" class="vpoint-editor hidden">
               <textarea id="vPointInput" rows="4"></textarea>
               <div class="editor-actions">
-                <button id="saveVPointBtn" class="small-primary">저장</button>
-                <button id="cancelVPointBtn" class="small-ghost">취소</button>
-                <button id="resetVPointBtn" class="small-ghost">원래대로</button>
+                <button type="button" id="saveVPointBtn" class="small-primary">저장</button>
+                <button type="button" id="cancelVPointBtn" class="small-ghost">취소</button>
+                <button type="button" id="resetVPointBtn" class="small-ghost">원래대로</button>
               </div>
             </div>
           </div>
 
           <div id="reactionRating" class="reaction-rating hidden">
-            <button id="knewBtn" class="rating-btn knew">알고 있었음</button>
-            <button id="forgotBtn" class="rating-btn forgot">몰랐음</button>
+            <button type="button" id="knewBtn" class="rating-btn knew">알고 있었음</button>
+            <button type="button" id="forgotBtn" class="rating-btn forgot">몰랐음</button>
           </div>
 
-          <button id="nextBtn" class="primary-btn next-btn hidden">다음 문제 →</button>
+          <button type="button" id="nextBtn" class="primary-btn next-btn hidden">다음 문제 →</button>
         </div>
       </div>
     </section>
@@ -127,16 +133,16 @@
     <!-- RESULT -->
     <section id="resultScreen" class="screen">
       <div class="panel result-panel">
-        <p class="section-kicker">RESULT</p>
+        <p class="section-kicker">결과</p>
         <div id="scoreDisplay" class="score-display">0 / 15</div>
         <p id="resultMessage" class="result-message"></p>
         <div id="missedList" class="missed-list"></div>
-        <button id="retryBtn" class="primary-btn">같은 설정으로 다시</button>
-        <button id="homeBtn" class="secondary-btn">설정 화면으로</button>
+        <button type="button" id="retryBtn" class="primary-btn">같은 설정으로 다시</button>
+        <button type="button" id="homeBtn" class="secondary-btn">설정 화면으로</button>
       </div>
     </section>
   </main>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20260726-app1"></script>
 </body>
 </html>
