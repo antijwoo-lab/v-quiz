@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V Quiz</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="app">
+<section id="home" class="screen active"><h1>V Quiz</h1><p>수능 영어 단어 퀴즈</p>
+<button data-mode="multiple">객관식 퀴즈</button><button data-mode="reaction">반응 퀴즈</button></section>
+<section id="quiz" class="screen"><div class="top"><button id="quit">← 나가기</button><span id="progress"></span></div><h2 id="word"></h2><div id="choices"></div>
+<div id="reaction" class="hidden"><button data-known="false">모르겠음</button><button data-known="true">알겠음</button></div>
+<div id="answer" class="hidden"><h3 id="meaning"></h3><div class="vpoint"><b>V Point</b><p id="vp"></p></div><button id="next">다음</button></div></section>
+<section id="result" class="screen"><h2>퀴즈 완료</h2><p id="score"></p><button id="homeBtn">처음으로</button></section>
+</main><script src="app.js"></script></body></html>
