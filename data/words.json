@@ -1,62 +1,1661 @@
 [
   {
+    "id": 1,
     "chapter": 1,
-    "word": "access",
-    "meaning": "접근하다; 접근",
-    "vPoint": "assess와 혼동 주의"
+    "word": "attitude",
+    "meaning": "태도, 입장, 사고방식",
+    "vPoint": "철자 비슷한 -titude 계열(altitude 고도, latitude 위도, longitude 경도, gratitude 감사, aptitude 적성)과 헷갈리지 않도록 구분."
   },
   {
-    "chapter": 1,
-    "word": "adapt",
-    "meaning": "적응하다; 맞추어 바꾸다",
-    "vPoint": "상황에 맞게 change하는 느낌"
-  },
-  {
-    "chapter": 1,
-    "word": "claim",
-    "meaning": "주장하다; 요구하다",
-    "vPoint": "권리·소유권을 주장한다는 의미도 확인"
-  },
-  {
-    "chapter": 1,
-    "word": "maintain",
-    "meaning": "유지하다",
-    "vPoint": "상태를 계속 유지하는 느낌"
-  },
-  {
-    "chapter": 1,
-    "word": "instead",
-    "meaning": "대신에",
-    "vPoint": "instead of + 명사/동명사 형태 확인"
-  },
-  {
+    "id": 2,
     "chapter": 1,
     "word": "affect",
-    "meaning": "영향을 미치다",
-    "vPoint": "effect와 구별"
+    "meaning": "영향을 미치다(동사) / 정서, 감정 반응(명사)",
+    "vPoint": "파생어 affection(애정), affectionate(다정한), affective(정서적인)까지 한 단어군으로 기억."
   },
   {
+    "id": 3,
     "chapter": 1,
-    "word": "require",
-    "meaning": "요구하다; 필요로 하다",
-    "vPoint": "require A to do 형태 확인"
+    "word": "priceless",
+    "meaning": "값을 매길 수 없이 귀중한",
+    "vPoint": "-less인데도 긍정적 의미. worthless·valueless(가치 없는)와 정반대."
   },
   {
+    "id": 4,
     "chapter": 1,
-    "word": "respond",
-    "meaning": "반응하다; 응답하다",
-    "vPoint": "respond to ~ : ~에 반응하다"
+    "word": "appliance",
+    "meaning": "(복수) 가정용 기기, 가전제품",
+    "vPoint": "단수로 쓰면 '적용, 응용'이라는 뜻이 됨."
   },
   {
+    "id": 5,
     "chapter": 1,
-    "word": "increase",
-    "meaning": "증가하다; 증가시키다",
-    "vPoint": "decrease와 반대"
+    "word": "intelligent",
+    "meaning": "똑똑한, 지능이 있는",
+    "vPoint": "intelligible(이해할 수 있는, 대상은 글·말)과 대상이 다름."
   },
   {
+    "id": 6,
     "chapter": 1,
+    "word": "lie",
+    "meaning": "눕다, 놓여 있다 / 거짓말하다",
+    "vPoint": "자동사 lie(눕다)와 타동사 lay(놓다, 목적어 필요)의 구분이 문법 단골."
+  },
+  {
+    "id": 7,
+    "chapter": 1,
+    "word": "causal",
+    "meaning": "인과 관계의",
+    "vPoint": "casual(격식 없는·무심한)과 철자 한 글자 차이지만 뜻이 완전히 다름."
+  },
+  {
+    "id": 8,
+    "chapter": 1,
+    "word": "reap",
+    "meaning": "거두다, 수확하다",
+    "vPoint": "reap the benefits(이득을 거두다)처럼 노력의 결과를 얻는다는 비유로 자주 쓰임."
+  },
+  {
+    "id": 9,
+    "chapter": 1,
+    "word": "terrible / terrific",
+    "meaning": "끔찍한 / 아주 멋진, 훌륭한",
+    "vPoint": "어원(terr-, 공포)은 같지만 뜻이 정반대로 굳어진 대표 사례."
+  },
+  {
+    "id": 10,
+    "chapter": 1,
+    "word": "access",
+    "meaning": "접근, 이용(권) / 접속하다",
+    "vPoint": "물리적 접근보다 '이용 기회'로 자주 쓰임. assess(평가하다)와 철자 함정."
+  },
+  {
+    "id": 11,
+    "chapter": 1,
+    "word": "public",
+    "meaning": "대중의, 공공의 / the public(일반 대중)",
+    "vPoint": "publicity(홍보), publication(출판), publicize(알리다) 파생어 구분."
+  },
+  {
+    "id": 12,
+    "chapter": 1,
+    "word": "alter",
+    "meaning": "바꾸다, 변경하다",
+    "vPoint": "alternative(대안), alternate(번갈아 하는) 파생어와 세트로 기억."
+  },
+  {
+    "id": 13,
+    "chapter": 1,
+    "word": "root",
+    "meaning": "뿌리, 근원",
+    "vPoint": "발음 비슷한 route(경로)와 구분 — 뿌리(아래) vs 경로(지도 위)."
+  },
+  {
+    "id": 14,
+    "chapter": 1,
+    "word": "stationary",
+    "meaning": "움직이지 않는, 정지된",
+    "vPoint": "명사 stationery(문구류)와 철자 한 글자(a/e) 차이."
+  },
+  {
+    "id": 15,
+    "chapter": 1,
+    "word": "spontaneously",
+    "meaning": "자발적으로, 저절로, 즉흥적으로",
+    "vPoint": "simultaneously(동시에)와 철자·발음이 비슷해 혼동."
+  },
+  {
+    "id": 16,
+    "chapter": 1,
+    "word": "comprehensive",
+    "meaning": "포괄적인, 종합적인",
+    "vPoint": "comprehensible(이해할 수 있는)과 헷갈리는 짝."
+  },
+  {
+    "id": 17,
+    "chapter": 1,
+    "word": "curve",
+    "meaning": "곡선 / 곡선으로 나아가다",
+    "vPoint": "curb(억제하다), carve(조각하다)와 3종 세트로 혼동."
+  },
+  {
+    "id": 18,
+    "chapter": 2,
+    "word": "mix",
+    "meaning": "섞다, 섞이다",
+    "vPoint": "형용사형 mixed(뒤섞인, 엇갈리는)가 추상적 의미로 자주 쓰임."
+  },
+  {
+    "id": 19,
+    "chapter": 2,
+    "word": "occupy",
+    "meaning": "차지하다, 점유하다, 전념하다",
+    "vPoint": "be occupied with(~에 몰두하다), 명사형 preoccupation(집착)."
+  },
+  {
+    "id": 20,
+    "chapter": 2,
+    "word": "struggle",
+    "meaning": "투쟁하다, 애쓰다, 몸부림치다",
+    "vPoint": "strive(적극적으로 노력)와 뉘앙스 차이 — struggle은 허우적대며 애씀."
+  },
+  {
+    "id": 21,
+    "chapter": 2,
+    "word": "vacuum",
+    "meaning": "진공(상태), 공백 / 외부와 단절된 고립 상태",
+    "vPoint": "in a vacuum(고립된 채로)이라는 비유 표현이 핵심."
+  },
+  {
+    "id": 22,
+    "chapter": 2,
+    "word": "myth",
+    "meaning": "신화 / 근거 없는 믿음, 사회적 통념",
+    "vPoint": "사실이 아닌데 널리 퍼진 믿음. faith(믿는 행위 자체)와 구분."
+  },
+  {
+    "id": 23,
+    "chapter": 2,
+    "word": "alien",
+    "meaning": "외계인, 외국인 / 이질적인, 낯선, 맞지 않는",
+    "vPoint": "alien to(~에 생소한) 구문, alienate·alienation 파생어."
+  },
+  {
+    "id": 24,
+    "chapter": 2,
+    "word": "weigh",
+    "meaning": "따져 보다, 저울질하다, 심사숙고하다",
+    "vPoint": "weigh A against B(A와 B를 견주다) 구문. 명사 weight(중요성)와 연결."
+  },
+  {
+    "id": 25,
+    "chapter": 2,
     "word": "inform",
-    "meaning": "알리다",
-    "vPoint": "be informed: 정보를 알고 있는 상태"
+    "meaning": "알리다, 통지하다, 정보를 주다",
+    "vPoint": "형용사형 informed는 긍정적으로 '정보에 근거해 올바르게 판단하는'이라는 뜻."
+  },
+  {
+    "id": 26,
+    "chapter": 2,
+    "word": "incident",
+    "meaning": "일어난 일, 사건, 사고",
+    "vPoint": "형용사형 incidental(부수적인, 우연히 일어나는)로 의미 확장."
+  },
+  {
+    "id": 27,
+    "chapter": 2,
+    "word": "manipulate",
+    "meaning": "조종하다, 조작하다, 다루다",
+    "vPoint": "교묘하고 부정직한 뉘앙스가 핵심."
+  },
+  {
+    "id": 28,
+    "chapter": 2,
+    "word": "option",
+    "meaning": "선택, 옵션, 선택 과목",
+    "vPoint": "형용사형 optional(선택적인, 필수 아닌)과 세트."
+  },
+  {
+    "id": 29,
+    "chapter": 2,
+    "word": "submit",
+    "meaning": "제출하다 / 항복하다, 굴복하다",
+    "vPoint": "sub-(아래로)+mit(보내다) — 자신을 낮춰 보낸다는 공통 이미지."
+  },
+  {
+    "id": 30,
+    "chapter": 2,
+    "word": "yield",
+    "meaning": "산출하다, 생산하다 / 양보·굴복하다",
+    "vPoint": "뜻이 완전히 다른 두 갈래(생산 vs 굴복)를 문맥으로 구분."
+  },
+  {
+    "id": 31,
+    "chapter": 2,
+    "word": "fascinate",
+    "meaning": "매혹하다, 마음을 빼앗다",
+    "vPoint": "tempt(유혹하다, 부정적)와 달리 긍정적으로 '매력에 빠지게 하다'."
+  },
+  {
+    "id": 32,
+    "chapter": 2,
+    "word": "develop",
+    "meaning": "개발하다, 발달하다 / (병 등이) 생기다 / (필름을) 현상하다",
+    "vPoint": "'개발' 외에 필름을 현상하다는 뜻이 따로 있다는 점이 핵심."
+  },
+  {
+    "id": 33,
+    "chapter": 2,
+    "word": "suspect",
+    "meaning": "의심하다 (~일 것이라 짐작하다)",
+    "vPoint": "doubt(~아닐 거라 생각)와 정반대 방향의 의심."
+  },
+  {
+    "id": 34,
+    "chapter": 2,
+    "word": "adopt",
+    "meaning": "입양하다, 채택하다, 쓰다",
+    "vPoint": "없던 것을 선택해서 책임지고 들이는 이미지 (ad-+opt=선택으로 향함)."
+  },
+  {
+    "id": 35,
+    "chapter": 2,
+    "word": "adapt",
+    "meaning": "맞추다, 조정하다, 적응하다, 각색하다",
+    "vPoint": "핵심은 change(변화) — 있는 것을 상황에 맞게 바꾸는 이미지."
+  },
+  {
+    "id": 36,
+    "chapter": 2,
+    "word": "adjust",
+    "meaning": "조정/조절하다, 적응하다",
+    "vPoint": "adapt와 유의어지만 기존 상태를 미세하게 맞추는 조정에 더 가까움."
+  },
+  {
+    "id": 37,
+    "chapter": 2,
+    "word": "faith",
+    "meaning": "믿음, 신뢰, 신념",
+    "vPoint": "파생어 faithful(충실한). have faith in(~을 신뢰하다) 구문."
+  },
+  {
+    "id": 38,
+    "chapter": 2,
+    "word": "bother",
+    "meaning": "괴롭히다, 귀찮게 하다 / 신경 쓰다, 애쓰다",
+    "vPoint": "not bother to V(굳이 ~하지 않다)처럼 부정문과 자주 쓰임."
+  },
+  {
+    "id": 39,
+    "chapter": 2,
+    "word": "tolerate",
+    "meaning": "참다, 용인하다",
+    "vPoint": "tolerance·tolerant ↔ intolerance·intolerant 세트로 기억."
+  },
+  {
+    "id": 40,
+    "chapter": 2,
+    "word": "exist",
+    "meaning": "존재하다",
+    "vPoint": "형용사형 existing(기존의)이 명사를 꾸며 자주 쓰임."
+  },
+  {
+    "id": 41,
+    "chapter": 2,
+    "word": "irony",
+    "meaning": "아이러니, 반어적 상황",
+    "vPoint": "기대와 실제 결과가 정반대로 나타나는 상황. paradox와 구분."
+  },
+  {
+    "id": 42,
+    "chapter": 2,
+    "word": "paradox",
+    "meaning": "역설, 역설적인 상황",
+    "vPoint": "논리적으로 모순돼 보이지만 참인 진술/상황. irony와 구분."
+  },
+  {
+    "id": 43,
+    "chapter": 2,
+    "word": "assume",
+    "meaning": "가정하다, 추정/상정하다",
+    "vPoint": "논리 전개를 위해 잠정적으로 가정. 명사형 assumption 체크."
+  },
+  {
+    "id": 44,
+    "chapter": 2,
+    "word": "compromise",
+    "meaning": "타협하다 / 훼손시키다, 위태롭게 하다",
+    "vPoint": "좋은 뜻(절충)과 나쁜 뜻(훼손)이 완전히 갈리는 게 핵심."
+  },
+  {
+    "id": 45,
+    "chapter": 2,
+    "word": "biology",
+    "meaning": "생물학 / 생명 작용, 타고난 특성",
+    "vPoint": "학문명 외에 '타고난 본성'을 가리킬 때도 쓰임."
+  },
+  {
+    "id": 46,
+    "chapter": 2,
+    "word": "exclusive",
+    "meaning": "배타적인, 독점적인",
+    "vPoint": "exclusively(오로지), exclusive of(~을 제외하고)와 함께."
+  },
+  {
+    "id": 47,
+    "chapter": 2,
+    "word": "prescribe",
+    "meaning": "처방을 내리다 / 규정하다, 지시하다",
+    "vPoint": "의학적 처방에서 법·규칙의 '규정하다'로 뜻이 확장됨."
+  },
+  {
+    "id": 48,
+    "chapter": 2,
+    "word": "presume",
+    "meaning": "추정하다, 여기다, 생각하다",
+    "vPoint": "assume과 유의어지만, 충분한 근거로 당연시하는 뉘앙스가 더 강함."
+  },
+  {
+    "id": 49,
+    "chapter": 2,
+    "word": "mere",
+    "meaning": "그저, 겨우 ~의, 단지 ~에 불과한",
+    "vPoint": "무시하거나 얕보는 뉘앙스가 핵심 (a mere formality 등)."
+  },
+  {
+    "id": 50,
+    "chapter": 2,
+    "word": "static",
+    "meaning": "고정된, 정적인, 변하지 않는",
+    "vPoint": "dynamic(역동적인)과 자주 대조되어 등장."
+  },
+  {
+    "id": 51,
+    "chapter": 2,
+    "word": "displace",
+    "meaning": "대신/대체하다 / 옮겨 놓다, 쫓아내다",
+    "vPoint": "원래 자리에서 밀려난다는 뉘앙스가 replace보다 강함."
+  },
+  {
+    "id": 52,
+    "chapter": 2,
+    "word": "seize",
+    "meaning": "와락 붙잡다, 포착하다, 이해하다",
+    "vPoint": "발음 비슷한 siege(포위)와 구분. seize the opportunity 표현."
+  },
+  {
+    "id": 53,
+    "chapter": 2,
+    "word": "orient",
+    "meaning": "지향하게 하다, 맞추다 / 성향, 경향",
+    "vPoint": "be oriented toward 구문. 반의어 disorient(갈피를 못 잡게 하다)."
+  },
+  {
+    "id": 54,
+    "chapter": 2,
+    "word": "identify",
+    "meaning": "식별하다, 확인하다, 동일시하다",
+    "vPoint": "identify with(~와 동일시하다, 공감하다) 구문이 핵심."
+  },
+  {
+    "id": 55,
+    "chapter": 2,
+    "word": "reconsider",
+    "meaning": "재고하다, 생각을 바꾸다",
+    "vPoint": "이미 내린 결정을 다시 검토한다는 뉘앙스. 명사형 reconsideration."
+  },
+  {
+    "id": 56,
+    "chapter": 2,
+    "word": "counterpart",
+    "meaning": "상응하는 것, 상대방, 관계자",
+    "vPoint": "counter-(대응)+part — 나와 대응되는 자리의 사람/것."
+  },
+  {
+    "id": 57,
+    "chapter": 2,
+    "word": "mobilize",
+    "meaning": "동원하다, 동원되다",
+    "vPoint": "mobile(이동하는)에서 파생, 자원·인력을 활용 가능하게 만든다는 뜻."
+  },
+  {
+    "id": 58,
+    "chapter": 2,
+    "word": "initiate",
+    "meaning": "개시되게 하다, 시작하다",
+    "vPoint": "명사형 initiative(주도권, 진취성). take the initiative 표현."
+  },
+  {
+    "id": 59,
+    "chapter": 3,
+    "word": "establish",
+    "meaning": "설립하다, 확립하다, 수립하다",
+    "vPoint": "형용사형 established(자리 잡은, 저명한)가 핵심 확장 의미."
+  },
+  {
+    "id": 60,
+    "chapter": 3,
+    "word": "even",
+    "meaning": "~조차도, 심지어 / 평평한, 공평한",
+    "vPoint": "부사와 형용사 뜻이 완전히 다름. uneven(불공평한)과 대조."
+  },
+  {
+    "id": 61,
+    "chapter": 3,
+    "word": "odd",
+    "meaning": "이상한, 특이한 / 홀수의",
+    "vPoint": "명사형 odds(가능성 / 역경)는 뜻이 확 바뀜."
+  },
+  {
+    "id": 62,
+    "chapter": 3,
+    "word": "mean",
+    "meaning": "의미하다 / 못된, 비열한 / 중간, 평균",
+    "vPoint": "세 뜻이 전혀 다름. means(수단, 복수형)와도 구분."
+  },
+  {
+    "id": 63,
+    "chapter": 3,
+    "word": "claim",
+    "meaning": "주장하다 / 소유권을 주장하다 / 목숨을 앗아가다",
+    "vPoint": "말로 주장 → 소유권 주장 → 강제로 가져가다 순으로 의미 확장."
+  },
+  {
+    "id": 64,
+    "chapter": 3,
+    "word": "subject",
+    "meaning": "주제, 학과 / ~될 수 있는, ~을 받아야 하는",
+    "vPoint": "be subject to(~될 수 있다) 구문이 시험·계약 지문에 빈출."
+  },
+  {
+    "id": 65,
+    "chapter": 3,
+    "word": "contemporary",
+    "meaning": "동시대의, 당대의 / 동년배",
+    "vPoint": "'현대의'가 아니라 비교 대상 시점과 같은 때라는 상대적 의미."
+  },
+  {
+    "id": 66,
+    "chapter": 3,
+    "word": "demand",
+    "meaning": "요구, 수요 / 요구하다",
+    "vPoint": "형용사형 demanding(힘든, 까다로운). supply and demand 표현."
+  },
+  {
+    "id": 67,
+    "chapter": 3,
+    "word": "consequence",
+    "meaning": "결과, 중요성",
+    "vPoint": "of consequence(중요한)라는 뜻으로도 쓰임. consequential 체크."
+  },
+  {
+    "id": 68,
+    "chapter": 3,
+    "word": "scale",
+    "meaning": "규모, 범위, 축척, 등급",
+    "vPoint": "scale up/down(규모를 늘리다/줄이다)이라는 구동사가 실전에서 자주 쓰임."
+  },
+  {
+    "id": 69,
+    "chapter": 3,
+    "word": "provide",
+    "meaning": "제공하다, 공급하다",
+    "vPoint": "provided(that)/providing(that)은 접속사로 쓰이면 if와 같은 뜻."
+  },
+  {
+    "id": 70,
+    "chapter": 3,
+    "word": "rather",
+    "meaning": "오히려, 차라리, 꽤",
+    "vPoint": "rather than(~보다는 차라리) — 여러 선택지 중 선호를 강조."
+  },
+  {
+    "id": 71,
+    "chapter": 3,
+    "word": "instead",
+    "meaning": "대신에",
+    "vPoint": "앞 문장이 부정문이고 instead가 그 대안을 제시하는 구조가 순서 문제 힌트로 쓰임."
+  },
+  {
+    "id": 72,
+    "chapter": 3,
+    "word": "game",
+    "meaning": "게임, 경기 / 사냥감",
+    "vPoint": "생태·환경 지문에서 '사냥감'이라는 뜻으로 은근히 등장."
+  },
+  {
+    "id": 73,
+    "chapter": 3,
+    "word": "motor",
+    "meaning": "모터, 자동차 / 운동의, 운동 신경의",
+    "vPoint": "motor skills(운동 기능)처럼 신체 움직임 관련 형용사로 확장."
+  },
+  {
+    "id": 74,
+    "chapter": 3,
+    "word": "rate",
+    "meaning": "비율, 속도, 요금 / 평가하다",
+    "vPoint": "at any rate(어쨌든)라는 관용구, rate A as B(A를 B로 평가하다) 구문."
+  },
+  {
+    "id": 75,
+    "chapter": 3,
+    "word": "contain",
+    "meaning": "함유하다, 포함하다 / 억제하다, 참다",
+    "vPoint": "contain oneself(감정을 억누르다)처럼 '억제'라는 뜻이 시험에 자주."
+  },
+  {
+    "id": 76,
+    "chapter": 3,
+    "word": "vehicle",
+    "meaning": "차량, 탈것 / 매개체, 수단",
+    "vPoint": "아이디어·감정을 전달하는 '매개체'라는 비유적 뜻이 지문에 빈출."
+  },
+  {
+    "id": 77,
+    "chapter": 3,
+    "word": "flavor",
+    "meaning": "풍미, 맛 / 특징, 색채",
+    "vPoint": "a local flavor(그 지역 특유의 색채)처럼 비유적 뜻으로 확장."
+  },
+  {
+    "id": 78,
+    "chapter": 3,
+    "word": "celebrity",
+    "meaning": "유명 인사 / 명성",
+    "vPoint": "celebrity status(유명세)처럼 셀럽 문화 지문에 등장."
+  },
+  {
+    "id": 79,
+    "chapter": 3,
+    "word": "virtual",
+    "meaning": "사실상의 / 가상의",
+    "vPoint": "virtual reality(가상현실)의 '가상'과 virtually(사실상)의 '실질적' 뜻을 구분."
+  },
+  {
+    "id": 80,
+    "chapter": 3,
+    "word": "scarce",
+    "meaning": "부족한, 드문, 희소한",
+    "vPoint": "명사 scarcity, 부사 scarcely(거의 ~않다) 파생어 세트로 기억."
+  },
+  {
+    "id": 81,
+    "chapter": 3,
+    "word": "grant",
+    "meaning": "승인/허락하다, 주다 / 보조금, 장학금",
+    "vPoint": "take A for granted(A를 당연하게 여기다)라는 관용구가 최빈출."
+  },
+  {
+    "id": 82,
+    "chapter": 3,
+    "word": "engage",
+    "meaning": "사로잡다, 관여하다, 약속/약혼하다",
+    "vPoint": "engage in(~에 참여하다), 형용사형 engaging(매력적인) 체크."
+  },
+  {
+    "id": 83,
+    "chapter": 3,
+    "word": "colony",
+    "meaning": "식민지, 군집, 집단",
+    "vPoint": "생물 지문에서 개미·박테리아의 '군집'이라는 뜻으로도 자주 쓰임."
+  },
+  {
+    "id": 84,
+    "chapter": 3,
+    "word": "settle",
+    "meaning": "정착하다, 해결하다, 합의를 보다",
+    "vPoint": "settle down(정착하다/진정하다), settle a dispute(분쟁을 해결하다)."
+  },
+  {
+    "id": 85,
+    "chapter": 3,
+    "word": "dispute",
+    "meaning": "분쟁, 논란 / 이의를 제기하다",
+    "vPoint": "undisputed(반박의 여지가 없는, 모두가 인정하는)와 세트로 기억."
+  },
+  {
+    "id": 86,
+    "chapter": 3,
+    "word": "context",
+    "meaning": "맥락, 문맥, 환경, 상황",
+    "vPoint": "in the context of(~라는 맥락에서), out of context(맥락을 벗어난)."
+  },
+  {
+    "id": 87,
+    "chapter": 3,
+    "word": "break",
+    "meaning": "깨다, 부수다 / (뉴스가) 터지다, 알려지다",
+    "vPoint": "break the news(소식을 전하다), break down(고장나다/분석하다)."
+  },
+  {
+    "id": 88,
+    "chapter": 3,
+    "word": "relevant",
+    "meaning": "관련 있는, 의의가 있는, 적절한",
+    "vPoint": "irrelevant(무관한)와 반의어, relevant to(~와 관련된) 구문."
+  },
+  {
+    "id": 89,
+    "chapter": 3,
+    "word": "appreciate",
+    "meaning": "진가를 알아보다, 고마워하다, 가치가 오르다",
+    "vPoint": "자산·물가가 '가치가 오르다'는 경제 지문 뜻을 체크."
+  },
+  {
+    "id": 90,
+    "chapter": 3,
+    "word": "except",
+    "meaning": "~을 제외하고는 / 제외하다",
+    "vPoint": "exceptional(이례적일 정도로 우수한)은 '제외될 만큼 특별한'이라는 이미지로 연결."
+  },
+  {
+    "id": 91,
+    "chapter": 3,
+    "word": "credit",
+    "meaning": "신용 거래, 공로, 학점",
+    "vPoint": "give credit to(~의 공로를 인정하다), on credit(외상으로) 표현."
+  },
+  {
+    "id": 92,
+    "chapter": 3,
+    "word": "frequency",
+    "meaning": "빈도, 주파수",
+    "vPoint": "frequent(빈번한, 형용사)와 frequently(부사) 파생어 세트."
+  },
+  {
+    "id": 93,
+    "chapter": 3,
+    "word": "count",
+    "meaning": "수를 세다, 중요하다, 포함시키다",
+    "vPoint": "count on(~에 의지하다)이라는 구동사가 핵심."
+  },
+  {
+    "id": 94,
+    "chapter": 3,
+    "word": "case",
+    "meaning": "경우, 소송, 용기 / the case(사실)",
+    "vPoint": "in case of(~의 경우에), be the case(사실이다) 표현."
+  },
+  {
+    "id": 95,
+    "chapter": 3,
+    "word": "inquire",
+    "meaning": "물어보다, 탐구하다",
+    "vPoint": "명사형 inquiry(질문, 조사, 탐구)와 함께 기억."
+  },
+  {
+    "id": 96,
+    "chapter": 3,
+    "word": "positive",
+    "meaning": "긍정의, 양성 반응의, 적극적인",
+    "vPoint": "negative와 대조. 의학 지문에서 '양성'이라는 뜻을 체크."
+  },
+  {
+    "id": 97,
+    "chapter": 3,
+    "word": "chemistry",
+    "meaning": "화학 / 교감, 끌림",
+    "vPoint": "사람 사이의 '케미(호흡)'라는 비유적 뜻이 흔히 쓰임."
+  },
+  {
+    "id": 98,
+    "chapter": 3,
+    "word": "cell",
+    "meaning": "세포 / 작은방, 독방, 칸",
+    "vPoint": "생물 지문(세포)과 감옥·독방 지문 둘 다 자주 등장."
+  },
+  {
+    "id": 99,
+    "chapter": 3,
+    "word": "contract",
+    "meaning": "계약(서) / 줄어들다, 수축하다 / (병에) 걸리다",
+    "vPoint": "contract a disease(병에 걸리다)라는 뜻이 특히 함정."
+  },
+  {
+    "id": 100,
+    "chapter": 3,
+    "word": "register",
+    "meaning": "등록하다 / 나타내다, 인식하다",
+    "vPoint": "뒤에 감정·반응이 오면 '드러나다, 감지되다'는 뜻이 됨."
+  },
+  {
+    "id": 101,
+    "chapter": 3,
+    "word": "agent",
+    "meaning": "중개인, 요원 / (원인이 되는) 동인, 물질",
+    "vPoint": "화학·생물 지문에서 '작용 물질'이라는 뜻으로도 등장."
+  },
+  {
+    "id": 102,
+    "chapter": 3,
+    "word": "figure",
+    "meaning": "수치, 인물, 모양 / 생각하다",
+    "vPoint": "figure out(알아내다)이라는 구동사가 시험 최빈출."
+  },
+  {
+    "id": 103,
+    "chapter": 3,
+    "word": "account",
+    "meaning": "계좌, 설명 / 중요성, 간주하다",
+    "vPoint": "account for(설명하다, ~의 비율을 차지하다)가 핵심 구문."
+  },
+  {
+    "id": 104,
+    "chapter": 3,
+    "word": "edge",
+    "meaning": "끝, 가장자리 / 우위, 이점",
+    "vPoint": "have an edge over(~보다 우위에 있다)라는 비유 표현."
+  },
+  {
+    "id": 105,
+    "chapter": 3,
+    "word": "reward",
+    "meaning": "보상 / 보상하다",
+    "vPoint": "형용사형 rewarding(보람이 있는)이 실전에서 자주 쓰임."
+  },
+  {
+    "id": 106,
+    "chapter": 3,
+    "word": "substance",
+    "meaning": "물질, 실체",
+    "vPoint": "형용사형 substantial(실질적인, 상당한)이 원래 명사보다 훨씬 자주 쓰임."
+  },
+  {
+    "id": 107,
+    "chapter": 3,
+    "word": "originate",
+    "meaning": "~에서 비롯하다, 유래하다",
+    "vPoint": "originate from/in 구문, original(원래의/독창적인) 파생어와 세트."
+  },
+  {
+    "id": 108,
+    "chapter": 3,
+    "word": "measure",
+    "meaning": "측정하다 / 조치, 정책",
+    "vPoint": "take measures(조치를 취하다)라는 표현이 핵심."
+  },
+  {
+    "id": 109,
+    "chapter": 3,
+    "word": "address",
+    "meaning": "주소 / 다루다, 연설하다",
+    "vPoint": "address the issue(문제를 다루다)처럼 동사 뜻이 시험에 더 중요."
+  },
+  {
+    "id": 110,
+    "chapter": 3,
+    "word": "represent",
+    "meaning": "대표하다, 해당하다, 상징하다",
+    "vPoint": "representative(대표하는/대표자)로 품사가 확장되는 것을 체크."
+  },
+  {
+    "id": 111,
+    "chapter": 3,
+    "word": "compound",
+    "meaning": "혼합물, 화합물 / 악화시키다",
+    "vPoint": "compound the problem(문제를 악화시키다)이라는 동사 뜻이 함정."
+  },
+  {
+    "id": 112,
+    "chapter": 3,
+    "word": "observe",
+    "meaning": "관찰하다 / (규칙을) 준수하다",
+    "vPoint": "observe a law(법을 준수하다)라는 뜻이 '관찰'과 별개로 중요."
+  },
+  {
+    "id": 113,
+    "chapter": 3,
+    "word": "anchor",
+    "meaning": "닻 / 뿌리내리게 하다, 정박하다",
+    "vPoint": "anchored in(~에 뿌리를 둔)이라는 비유적 표현."
+  },
+  {
+    "id": 114,
+    "chapter": 3,
+    "word": "margin",
+    "meaning": "여백, 차이, 가장자리, 이윤",
+    "vPoint": "형용사형 marginal(미미한, 주변적인)이 원래 명사보다 자주 쓰임."
+  },
+  {
+    "id": 115,
+    "chapter": 3,
+    "word": "shallow",
+    "meaning": "깊이가 얕은 / 피상적인, 얄팍한",
+    "vPoint": "물리적 '얕음'에서 사람·생각의 '천박함'으로 뜻이 확장."
+  },
+  {
+    "id": 116,
+    "chapter": 3,
+    "word": "respect",
+    "meaning": "존경, 경의 / 면, 점, 사항",
+    "vPoint": "in this respect(이 점에서)라는 뜻이 존경과 별개로 중요."
+  },
+  {
+    "id": 117,
+    "chapter": 3,
+    "word": "property",
+    "meaning": "재산, 부동산 / 특성, 속성",
+    "vPoint": "과학 지문에서 물질의 '속성'이라는 뜻으로 자주 등장."
+  },
+  {
+    "id": 118,
+    "chapter": 3,
+    "word": "rough",
+    "meaning": "거친, 난폭한 / 대략적인",
+    "vPoint": "부사형 roughly(대략)가 수치 관련 지문에 빈출."
+  },
+  {
+    "id": 119,
+    "chapter": 3,
+    "word": "successful",
+    "meaning": "성공한, 성공적인",
+    "vPoint": "succeed(성공/계승), succession(연속), successive(연속적인) 파생어 구분."
+  },
+  {
+    "id": 120,
+    "chapter": 3,
+    "word": "custom",
+    "meaning": "관습, 풍습",
+    "vPoint": "customize(고객 맞춤 제작하다)라는 동사와 뜻이 다르니 구분."
+  },
+  {
+    "id": 121,
+    "chapter": 3,
+    "word": "climate",
+    "meaning": "기후 / 분위기, 풍조",
+    "vPoint": "political climate(정치적 분위기)처럼 비유적 뜻이 흔히 쓰임."
+  },
+  {
+    "id": 122,
+    "chapter": 3,
+    "word": "pitch",
+    "meaning": "내던지다, 투구 / 음의 높이 / 판매 권유",
+    "vPoint": "sales pitch(판매 권유)라는 뜻도 알아두면 좋음."
+  },
+  {
+    "id": 123,
+    "chapter": 3,
+    "word": "cast",
+    "meaning": "던지다 / 출연진 / 깁스",
+    "vPoint": "cast a shadow(그림자를 드리우다)라는 비유 표현이 자주 나옴."
+  },
+  {
+    "id": 124,
+    "chapter": 3,
+    "word": "score",
+    "meaning": "득점, 점수 / 악보 / 스무 개 정도",
+    "vPoint": "settle a score(원한을 갚다)라는 관용구도 함께 체크."
+  },
+  {
+    "id": 125,
+    "chapter": 3,
+    "word": "integrate",
+    "meaning": "통합시키다, 통합되다",
+    "vPoint": "형용사형 integral(필수적인), integrity(진실성, 청렴)까지 세트로."
+  },
+  {
+    "id": 126,
+    "chapter": 3,
+    "word": "mark",
+    "meaning": "표시, 흔적 / 특징짓다",
+    "vPoint": "mark the beginning of(~의 시작을 알리다)라는 비유 표현."
+  },
+  {
+    "id": 127,
+    "chapter": 3,
+    "word": "condition",
+    "meaning": "상태 / 좌우하다, 조건",
+    "vPoint": "be conditioned to(~하도록 길들여지다)라는 수동태 뜻을 체크."
+  },
+  {
+    "id": 128,
+    "chapter": 3,
+    "word": "minute",
+    "meaning": "분(名) / 미세한(形)",
+    "vPoint": "명사(분, [mínit])와 형용사(미세한, [mainjúːt]) 발음 차이가 함정."
+  },
+  {
+    "id": 129,
+    "chapter": 3,
+    "word": "invariable",
+    "meaning": "변함없는, 변치 않는",
+    "vPoint": "부사형 invariably(항상, 예외 없이)가 원래 형용사보다 지문에 더 자주."
+  },
+  {
+    "id": 130,
+    "chapter": 3,
+    "word": "question",
+    "meaning": "질문 / 이의를 제기하다",
+    "vPoint": "beyond question(의심의 여지 없이), out of the question(불가능한)."
+  },
+  {
+    "id": 131,
+    "chapter": 3,
+    "word": "immune",
+    "meaning": "(질병에) 면역성이 있는 / 영향을 받지 않는",
+    "vPoint": "immune to criticism(비판에 흔들리지 않는)처럼 비유적으로 확장."
+  },
+  {
+    "id": 132,
+    "chapter": 3,
+    "word": "light",
+    "meaning": "빛 / 가벼운 / 관점, 측면",
+    "vPoint": "in light of(~을 고려하여), shed light on(~을 밝혀주다) 표현."
+  },
+  {
+    "id": 133,
+    "chapter": 3,
+    "word": "sound",
+    "meaning": "소리 / 건전한, 견고한, 탄탄한",
+    "vPoint": "a sound argument(탄탄한 논거)처럼 '견고함'이 핵심 확장 뜻."
+  },
+  {
+    "id": 134,
+    "chapter": 3,
+    "word": "fine",
+    "meaning": "좋은, 훌륭한 / 미세한, 섬세한 / 벌금",
+    "vPoint": "fine print(작은 글씨, 세부 조항)라는 표현을 체크."
+  },
+  {
+    "id": 135,
+    "chapter": 3,
+    "word": "treat",
+    "meaning": "대하다, 다루다 / 특별한 것(대접)",
+    "vPoint": "treat A as B(A를 B로 취급하다)라는 구문이 핵심."
+  },
+  {
+    "id": 136,
+    "chapter": 3,
+    "word": "authorize",
+    "meaning": "권한을 부여하다, 허가하다, 공인하다",
+    "vPoint": "형용사형 authorized(공인된)가 지문에 자주 등장."
+  },
+  {
+    "id": 137,
+    "chapter": 3,
+    "word": "mechanical",
+    "meaning": "기계적인 / 진심이 담기지 않은",
+    "vPoint": "a mechanical smile(형식적인 미소)처럼 부정적으로 확장되는 뜻."
+  },
+  {
+    "id": 138,
+    "chapter": 3,
+    "word": "code",
+    "meaning": "암호, 부호 / 관례, 규칙, 규정",
+    "vPoint": "dress code(복장 규정)처럼 사회적 '규범'이라는 뜻으로 확장."
+  },
+  {
+    "id": 139,
+    "chapter": 4,
+    "word": "be it A or B",
+    "meaning": "A이든 B이든",
+    "vPoint": "양보의 부사절 표현. whether A or B와 같은 뜻."
+  },
+  {
+    "id": 140,
+    "chapter": 4,
+    "word": "turn sour",
+    "meaning": "(관계·상황이) 틀어지다, 안 좋아지다",
+    "vPoint": "'(우유가) 시어지다'는 원뜻에서 관계·상황의 악화로 비유 확장."
+  },
+  {
+    "id": 141,
+    "chapter": 4,
+    "word": "contribute to",
+    "meaning": "공헌하다, 기여하다, 원인이 되다",
+    "vPoint": "좋은 결과(기여)와 나쁜 결과(원인) 둘 다에 쓰이는 중립적 표현."
+  },
+  {
+    "id": 142,
+    "chapter": 4,
+    "word": "it follows that",
+    "meaning": "(논리적으로) ~라는 결론이 나온다",
+    "vPoint": "앞 내용에서 자연스럽게 도출되는 결론을 이끄는 표현."
+  },
+  {
+    "id": 143,
+    "chapter": 4,
+    "word": "at best/most",
+    "meaning": "기껏, 잘해야",
+    "vPoint": "기대치를 낮추는 뉘앙스로, 최댓값을 한정하는 표현."
+  },
+  {
+    "id": 144,
+    "chapter": 4,
+    "word": "at worst",
+    "meaning": "최악의 경우에",
+    "vPoint": "at best와 짝을 이루는 반대 표현."
+  },
+  {
+    "id": 145,
+    "chapter": 4,
+    "word": "A is a creation of B",
+    "meaning": "A는 B의 산물이다",
+    "vPoint": "어떤 결과물이 특정 배경·조건에서 생겨났다는 인과 관계를 나타냄."
+  },
+  {
+    "id": 146,
+    "chapter": 4,
+    "word": "not so much A as B",
+    "meaning": "A라기보다는 B인",
+    "vPoint": "A보다 B 쪽에 무게가 실리는 비교 구문. rather B than A와 유사."
+  },
+  {
+    "id": 147,
+    "chapter": 4,
+    "word": "other than",
+    "meaning": "~을 제외하고, ~와 다른",
+    "vPoint": "except와 유사하지만 '~와 별개로 다른'이라는 뉘앙스로도 쓰임."
+  },
+  {
+    "id": 148,
+    "chapter": 4,
+    "word": "not A until B",
+    "meaning": "B할 때까지는 A가 아니다, B하고 나서야 비로소 A하다",
+    "vPoint": "부정+until 도치 구문(Not until B did S V) 형태도 함께 체크."
+  },
+  {
+    "id": 149,
+    "chapter": 4,
+    "word": "removed from",
+    "meaning": "~로부터 동떨어진, 멀리 떨어진",
+    "vPoint": "물리적 거리보다 '정서적·현실적으로 동떨어진'이라는 비유로 자주 쓰임."
+  },
+  {
+    "id": 150,
+    "chapter": 4,
+    "word": "A is a window into B",
+    "meaning": "A는 B를 들여다보는 창이다",
+    "vPoint": "A를 통해 B의 실체를 엿볼 수 있다는 비유 표현."
+  },
+  {
+    "id": 151,
+    "chapter": 4,
+    "word": "attend to",
+    "meaning": "~에 주목하다, ~를 처리하다",
+    "vPoint": "attend(참석하다)와 달리 attend to는 '관심을 기울이다, 처리하다'는 뜻."
+  },
+  {
+    "id": 152,
+    "chapter": 4,
+    "word": "aside from",
+    "meaning": "~와는 별개로, ~외에도",
+    "vPoint": "besides와 유사. '그 외에 추가로'라는 뜻도 가능."
+  },
+  {
+    "id": 153,
+    "chapter": 4,
+    "word": "confuse A with B",
+    "meaning": "A와 B를 혼동하다",
+    "vPoint": "mistake A for B와 같은 의미로 바꿔 쓸 수 있음."
+  },
+  {
+    "id": 154,
+    "chapter": 4,
+    "word": "be programmed to V",
+    "meaning": "~하도록 (타고나게) 프로그램 되어 있다",
+    "vPoint": "생물학적으로 '타고났다, 본능적이다'는 뜻의 비유 표현."
+  },
+  {
+    "id": 155,
+    "chapter": 4,
+    "word": "distinction/gap between A and B",
+    "meaning": "A와 B 사이의 차이",
+    "vPoint": "bridge the gap(격차를 좁히다)이라는 표현과 세트로 기억."
+  },
+  {
+    "id": 156,
+    "chapter": 4,
+    "word": "A is to B as/what C is to D",
+    "meaning": "A와 B의 관계는 C와 D의 관계와 같다",
+    "vPoint": "유추(analogy) 구문. 수능 어법·독해에 종종 등장."
+  },
+  {
+    "id": 157,
+    "chapter": 4,
+    "word": "as A as B",
+    "meaning": "B만큼 A한",
+    "vPoint": "원급 비교 구문의 기본형."
+  },
+  {
+    "id": 158,
+    "chapter": 4,
+    "word": "even so",
+    "meaning": "그렇기는 하지만, 그럼에도 불구하고",
+    "vPoint": "앞 내용을 인정하면서도 반박하는 역접 연결어."
+  },
+  {
+    "id": 159,
+    "chapter": 4,
+    "word": "replace A with B / substitute A for B",
+    "meaning": "A를 B로 대체하다",
+    "vPoint": "목적어 위치가 서로 반대라는 점이 문법 함정(replace old with new / substitute new for old)."
+  },
+  {
+    "id": 160,
+    "chapter": 4,
+    "word": "be absorbed in",
+    "meaning": "~에 빠지다, 열중하다, 몰입하다",
+    "vPoint": "absorb(흡수하다)에서 '정신이 빨려 들어가듯 몰입하다'로 비유 확장."
+  },
+  {
+    "id": 161,
+    "chapter": 4,
+    "word": "make a difference",
+    "meaning": "차이를 만들다, 영향을 주다",
+    "vPoint": "make no difference(아무 차이가 없다)라는 부정형도 체크."
+  },
+  {
+    "id": 162,
+    "chapter": 4,
+    "word": "as well",
+    "meaning": "또한, 역시",
+    "vPoint": "문장 끝에 붙는 게 일반적. too와 위치·뜻이 같음."
+  },
+  {
+    "id": 163,
+    "chapter": 5,
+    "word": "should S V",
+    "meaning": "혹시라도 ~라면",
+    "vPoint": "if절에서 should가 오면 실현 가능성이 낮은 가정을 나타냄."
+  },
+  {
+    "id": 164,
+    "chapter": 5,
+    "word": "attribute A to B",
+    "meaning": "A를 B의 탓/덕분으로 돌리다",
+    "vPoint": "원인을 특정 요인에 귀속시키는 표현. 좋고 나쁨 둘 다 가능."
+  },
+  {
+    "id": 165,
+    "chapter": 5,
+    "word": "draw on A",
+    "meaning": "A를 이용하다, 활용하다",
+    "vPoint": "자원·경험 등을 '끌어다 쓰다'는 이미지."
+  },
+  {
+    "id": 166,
+    "chapter": 5,
+    "word": "as far as",
+    "meaning": "~하는 한",
+    "vPoint": "as far as I know(내가 아는 한)처럼 한정된 범위를 나타냄."
+  },
+  {
+    "id": 167,
+    "chapter": 5,
+    "word": "argue for/against",
+    "meaning": "~에 찬성/반대론을 펴다",
+    "vPoint": "전치사 for/against로 입장이 정반대가 되는 구문."
+  },
+  {
+    "id": 168,
+    "chapter": 5,
+    "word": "in need",
+    "meaning": "도움이 필요한, 어려움에 처한",
+    "vPoint": "a friend in need(어려울 때 친구)라는 표현과 세트."
+  },
+  {
+    "id": 169,
+    "chapter": 5,
+    "word": "be on the same page",
+    "meaning": "이해하고 있는 내용이 같다, 의견이 일치하다",
+    "vPoint": "회의·협업 상황에서 자주 쓰이는 관용 표현."
+  },
+  {
+    "id": 170,
+    "chapter": 5,
+    "word": "tap into",
+    "meaning": "~에 다가가다, ~을 활용하다",
+    "vPoint": "숨겨진 자원·잠재력을 '끌어다 쓰다'는 이미지."
+  },
+  {
+    "id": 171,
+    "chapter": 5,
+    "word": "in and of itself",
+    "meaning": "그 자체로",
+    "vPoint": "다른 것과 별개로 그것만 놓고 볼 때라는 뜻을 강조."
+  },
+  {
+    "id": 172,
+    "chapter": 5,
+    "word": "having said that",
+    "meaning": "그렇기는 하지만",
+    "vPoint": "even so와 유사한 역접 연결 표현."
+  },
+  {
+    "id": 173,
+    "chapter": 5,
+    "word": "chances are S V",
+    "meaning": "~일 가능성이 있다, 아마 ~일 것이다",
+    "vPoint": "확률·가능성을 나타내는 구어적 표현."
+  },
+  {
+    "id": 174,
+    "chapter": 5,
+    "word": "take over",
+    "meaning": "인계받다, 탈취/장악하다",
+    "vPoint": "기업 인수(takeover) 관련 지문에 자주 등장."
+  },
+  {
+    "id": 175,
+    "chapter": 5,
+    "word": "give rise to",
+    "meaning": "일으키다, 발생시키다",
+    "vPoint": "원인이 결과를 낳는다는 인과 관계 표현. cause와 유사."
+  },
+  {
+    "id": 176,
+    "chapter": 5,
+    "word": "take place",
+    "meaning": "발생하다, 일어나다",
+    "vPoint": "happen과 유사하지만 주로 계획되거나 예정된 일에 씀."
+  },
+  {
+    "id": 177,
+    "chapter": 5,
+    "word": "lay off",
+    "meaning": "해고시키다",
+    "vPoint": "명사형 layoff(해고)와 함께, 경기·경제 지문에 빈출."
+  },
+  {
+    "id": 178,
+    "chapter": 5,
+    "word": "nothing but",
+    "meaning": "오직, 그저/단지 ~일 뿐인",
+    "vPoint": "only와 같은 뜻으로, 강조를 위한 표현."
+  },
+  {
+    "id": 179,
+    "chapter": 5,
+    "word": "rule out",
+    "meaning": "제외시키다, 배제하다, 불가능하게 하다",
+    "vPoint": "가능성을 목록에서 지운다는 이미지."
+  },
+  {
+    "id": 180,
+    "chapter": 5,
+    "word": "in V-ing",
+    "meaning": "~안에서, ~할 때",
+    "vPoint": "동시 동작이나 그 과정 중에 발생하는 일을 나타냄."
+  },
+  {
+    "id": 181,
+    "chapter": 5,
+    "word": "deal with",
+    "meaning": "~를 다루다, 대처/해결하다",
+    "vPoint": "handle, cope with과 유사한 뜻."
+  },
+  {
+    "id": 182,
+    "chapter": 5,
+    "word": "rob A of B",
+    "meaning": "A에게서 B를 빼앗다",
+    "vPoint": "deprive A of B와 유사. 전치사 of 뒤에 빼앗기는 대상이 옴."
+  },
+  {
+    "id": 183,
+    "chapter": 5,
+    "word": "cannot but / cannot help ~ing",
+    "meaning": "~하지 않을 수 없다",
+    "vPoint": "이중 부정으로 강한 필연성을 나타내는 구문."
+  },
+  {
+    "id": 184,
+    "chapter": 5,
+    "word": "give away",
+    "meaning": "거저 주다, 나누어 주다, (비밀을) 누설하다",
+    "vPoint": "'나눠주다'와 '누설하다' 두 뜻 다 시험에 나올 수 있음."
+  },
+  {
+    "id": 185,
+    "chapter": 5,
+    "word": "It is (not) that S V",
+    "meaning": "~ 때문이다(~ 때문이 아니다)",
+    "vPoint": "원인을 강조하는 강조 구문 형태."
+  },
+  {
+    "id": 186,
+    "chapter": 5,
+    "word": "This is not to say that",
+    "meaning": "그것이 ~라는 것은 아니다",
+    "vPoint": "앞 내용이 오해를 부를까봐 미리 선을 긋는 양보 표현."
+  },
+  {
+    "id": 187,
+    "chapter": 5,
+    "word": "boil down to / be reduced to",
+    "meaning": "결국 ~로 귀결되다, 좁혀지다",
+    "vPoint": "복잡한 내용을 단순화해서 핵심만 남긴다는 이미지."
+  },
+  {
+    "id": 188,
+    "chapter": 5,
+    "word": "give way to",
+    "meaning": "길을 내어 주다, 양보하다",
+    "vPoint": "물리적으로 길을 비켜준다는 뜻에서 '양보하다'로 확장."
+  },
+  {
+    "id": 189,
+    "chapter": 5,
+    "word": "mover",
+    "meaning": "움직이는 사람/것, 원동력",
+    "vPoint": "단순 '이사업체'라는 뜻 외에 무언가를 이끄는 주체를 가리킴."
+  },
+  {
+    "id": 190,
+    "chapter": 5,
+    "word": "outpace",
+    "meaning": "앞지르다, 앞서다",
+    "vPoint": "성장 속도 등을 비교하는 경제·통계 지문에 자주 쓰임."
+  },
+  {
+    "id": 191,
+    "chapter": 5,
+    "word": "outnumber",
+    "meaning": "~보다 수가 더 많다, 수적으로 우세하다",
+    "vPoint": "out-(초과)+number(수)로 수량 비교를 나타냄."
+  },
+  {
+    "id": 192,
+    "chapter": 5,
+    "word": "base",
+    "meaning": "근거를 두다 / 기초, 토대, 기반",
+    "vPoint": "be based on(~에 근거하다)이라는 수동태 구문이 핵심."
+  },
+  {
+    "id": 193,
+    "chapter": 5,
+    "word": "A is a driving force in B",
+    "meaning": "A는 B의 원동력이다",
+    "vPoint": "mover와 유사하게 변화를 이끄는 핵심 요인을 가리킴."
+  },
+  {
+    "id": 194,
+    "chapter": 5,
+    "word": "determine",
+    "meaning": "결정하다, 알아내다",
+    "vPoint": "determined(단호한, 결심한)라는 형용사형도 함께 체크."
+  },
+  {
+    "id": 195,
+    "chapter": 5,
+    "word": "distinguish",
+    "meaning": "구별/구분하다, 식별하다",
+    "vPoint": "distinguished(저명한, 유명한)라는 뜻으로 확장되는 게 함정."
+  },
+  {
+    "id": 196,
+    "chapter": 5,
+    "word": "reflect",
+    "meaning": "반사하다 / 나타내다, 반영하다 / 깊이 생각하다",
+    "vPoint": "reflect on(~을 깊이 생각하다)이라는 자동사 구문을 체크."
+  },
+  {
+    "id": 197,
+    "chapter": 5,
+    "word": "require",
+    "meaning": "요구하다, 필요로 하다",
+    "vPoint": "형용사형 required(필수의), 명사형 requirement(요구 사항)."
+  },
+  {
+    "id": 198,
+    "chapter": 5,
+    "word": "depend",
+    "meaning": "의지하다, 좌우되다",
+    "vPoint": "depend on(~에 달려 있다) 구문. dependent/independent 파생어."
+  },
+  {
+    "id": 199,
+    "chapter": 5,
+    "word": "according to",
+    "meaning": "~에 따르면",
+    "vPoint": "출처를 밝히는 표현. 지문 근거 문제에 자주 등장."
+  },
+  {
+    "id": 200,
+    "chapter": 5,
+    "word": "follow",
+    "meaning": "따라가다 / 이해하다 / (논리적으로) 뒤따르다",
+    "vPoint": "단순 '따라가다' 외에 '이해하다'는 구어적 뜻도 있음."
+  },
+  {
+    "id": 201,
+    "chapter": 5,
+    "word": "outweigh",
+    "meaning": "~보다 무게가 나가다, 중요하다, 뛰어나다",
+    "vPoint": "장단점 비교 시 the benefits outweigh the risks처럼 자주 쓰임."
+  },
+  {
+    "id": 202,
+    "chapter": 5,
+    "word": "outgrow",
+    "meaning": "~보다 더 커지다/많아지다, (하던 것을) 벗어나다",
+    "vPoint": "아이가 옷을 못 입게 되듯 '커져서 안 맞게 되다'는 비유."
+  },
+  {
+    "id": 203,
+    "chapter": 5,
+    "word": "subordinate",
+    "meaning": "종속된, 하급의, 부차적인 / 하급자",
+    "vPoint": "be subordinate to(~에 종속되다)라는 구문을 체크."
+  },
+  {
+    "id": 204,
+    "chapter": 5,
+    "word": "independent",
+    "meaning": "독립적인, 독자적인, 별개의",
+    "vPoint": "independent of(~와 무관한)라는 전치사구를 함께 체크."
+  },
+  {
+    "id": 205,
+    "chapter": 5,
+    "word": "owe",
+    "meaning": "빚지고 있다, ~덕분이다",
+    "vPoint": "owe A to B(A는 B 덕분이다)라는 구문이 감사 표현에 자주 쓰임."
+  },
+  {
+    "id": 206,
+    "chapter": 6,
+    "word": "school",
+    "meaning": "학교 / 학파, 무리, 떼",
+    "vPoint": "a school of thought(어떤 사상적 유파)라는 뜻으로 확장."
+  },
+  {
+    "id": 207,
+    "chapter": 6,
+    "word": "new",
+    "meaning": "새로운 / ~에 미숙한",
+    "vPoint": "new to(~에 익숙하지 않은, 초보인)라는 형용사 구문."
+  },
+  {
+    "id": 208,
+    "chapter": 6,
+    "word": "cost",
+    "meaning": "돈, 비용 / 대가, 희생, 손해",
+    "vPoint": "at the cost of(~을 희생하면서)라는 표현이 비유적으로 자주 쓰임."
+  },
+  {
+    "id": 209,
+    "chapter": 6,
+    "word": "level",
+    "meaning": "정도, 수준 / 평평한, 수평의",
+    "vPoint": "level with someone(~에게 솔직히 말하다)이라는 구어 표현도 있음."
+  },
+  {
+    "id": 210,
+    "chapter": 6,
+    "word": "cultural",
+    "meaning": "문화의, 문화적인",
+    "vPoint": "cross-cultural(문화 간의)이라는 접두사 결합형을 체크."
+  },
+  {
+    "id": 211,
+    "chapter": 6,
+    "word": "discount",
+    "meaning": "할인 / 무시하다, 가볍게 여기다",
+    "vPoint": "가격 할인 외에 '중요하게 여기지 않다'는 동사 뜻이 함정."
+  },
+  {
+    "id": 212,
+    "chapter": 6,
+    "word": "economy",
+    "meaning": "경제, 경기 / 절약, 아끼기",
+    "vPoint": "economy class(저가석)처럼 '절약형'이라는 형용사적 쓰임을 체크."
+  },
+  {
+    "id": 213,
+    "chapter": 6,
+    "word": "star",
+    "meaning": "별 / 주연을 맡다, 출연하다",
+    "vPoint": "동사로 '주연으로 출연하다'는 뜻이 시험에 종종 나옴."
+  },
+  {
+    "id": 214,
+    "chapter": 6,
+    "word": "put",
+    "meaning": "놓다, 두다 / (말로) 표현하다",
+    "vPoint": "put it simply(간단히 말하면)처럼 '표현하다'는 뜻을 체크."
+  },
+  {
+    "id": 215,
+    "chapter": 6,
+    "word": "over",
+    "meaning": "~위에 / ~보다 더 (우위)",
+    "vPoint": "get over(극복하다), all over(도처에) 등 구동사에 자주 활용."
+  },
+  {
+    "id": 216,
+    "chapter": 6,
+    "word": "file",
+    "meaning": "파일, 서류철 / 정리해 보관하다",
+    "vPoint": "file a complaint(불만을 제기하다)라는 표현도 체크."
+  },
+  {
+    "id": 217,
+    "chapter": 6,
+    "word": "invite",
+    "meaning": "초대하다 / (관심 등을) 끌다, 유발하다",
+    "vPoint": "invite criticism(비판을 자초하다)처럼 부정적 결과를 부른다는 뜻."
+  },
+  {
+    "id": 218,
+    "chapter": 6,
+    "word": "general",
+    "meaning": "일반적인, 보편적인",
+    "vPoint": "in general(일반적으로)이라는 표현이 핵심."
+  },
+  {
+    "id": 219,
+    "chapter": 6,
+    "word": "common",
+    "meaning": "흔한, 공동의, 공통의",
+    "vPoint": "common sense(상식), have in common(공통점이 있다) 표현."
+  },
+  {
+    "id": 220,
+    "chapter": 6,
+    "word": "social",
+    "meaning": "사회의, 사회적인, 사교적인",
+    "vPoint": "socialize(사람들과 어울리다, 사회화하다)라는 동사형을 체크."
+  },
+  {
+    "id": 221,
+    "chapter": 6,
+    "word": "part",
+    "meaning": "부분",
+    "vPoint": "형용사형 partial(부분적인/편파적인)이 뜻 두 가지로 갈리는 게 함정."
+  },
+  {
+    "id": 222,
+    "chapter": 6,
+    "word": "still",
+    "meaning": "아직(도), 그런데도 / 가만히 있는, 고요한",
+    "vPoint": "부사(아직)와 형용사(고요한) 뜻을 구분."
+  },
+  {
+    "id": 223,
+    "chapter": 6,
+    "word": "manner",
+    "meaning": "방식",
+    "vPoint": "manners(예의, 복수형)로 쓰이면 뜻이 완전히 달라짐."
+  },
+  {
+    "id": 224,
+    "chapter": 6,
+    "word": "things",
+    "meaning": "것들, 상황, 형편",
+    "vPoint": "how are things(요즘 어때)처럼 '형편'이라는 뜻으로 쓰임."
+  },
+  {
+    "id": 225,
+    "chapter": 6,
+    "word": "shoe",
+    "meaning": "신발 / (관용) 입장, 상황",
+    "vPoint": "in someone's shoes(그 사람 입장이 되어)라는 관용 표현."
+  },
+  {
+    "id": 226,
+    "chapter": 6,
+    "word": "tackle",
+    "meaning": "연장, 도구 / (문제를) 다루다, 씨름하다",
+    "vPoint": "축구의 '태클'에서 '문제와 맞붙어 씨름하다'로 비유 확장."
+  },
+  {
+    "id": 227,
+    "chapter": 6,
+    "word": "coin",
+    "meaning": "동전, 주화 / (새 낱말을) 만들다",
+    "vPoint": "coin a term(신조어를 만들다)이라는 동사 뜻이 시험에 종종 나옴."
+  },
+  {
+    "id": 228,
+    "chapter": 6,
+    "word": "pay",
+    "meaning": "지불하다 / 이득이 되다, 보상을 주다",
+    "vPoint": "pay off(성과를 거두다)라는 구동사를 체크."
+  },
+  {
+    "id": 229,
+    "chapter": 6,
+    "word": "mirror",
+    "meaning": "거울 / 잘 보여주다, 반영하다",
+    "vPoint": "동사로 '그대로 반영하다, 흡사하다'는 뜻이 핵심."
+  },
+  {
+    "id": 230,
+    "chapter": 6,
+    "word": "second",
+    "meaning": "제2의, 두 번째 / 이차적인, 부차적인",
+    "vPoint": "secondary(이차적인)와 함께, second to none(누구에게도 뒤지지 않는) 표현."
+  },
+  {
+    "id": 231,
+    "chapter": 6,
+    "word": "increasingly",
+    "meaning": "점점, 갈수록",
+    "vPoint": "뒤에 형용사·비교급이 오는 구조가 흔함."
+  },
+  {
+    "id": 232,
+    "chapter": 6,
+    "word": "party",
+    "meaning": "파티, 잔치 / 정당, 단체 / 당사자",
+    "vPoint": "법률 지문에서 '당사자'라는 뜻으로 자주 등장(a party to the contract)."
+  },
+  {
+    "id": 233,
+    "chapter": 6,
+    "word": "beyond",
+    "meaning": "~저편에/너머 / ~수준을 넘어선",
+    "vPoint": "beyond repair(수리 불가능한)처럼 '한계를 넘어선'이라는 뜻으로 확장."
+  },
+  {
+    "id": 234,
+    "chapter": 6,
+    "word": "very",
+    "meaning": "매우 / 바로 그",
+    "vPoint": "the very thing(바로 그것)처럼 형용사로 강조하는 뜻이 있다는 게 함정."
+  },
+  {
+    "id": 235,
+    "chapter": 6,
+    "word": "pale",
+    "meaning": "창백한, 핼쑥한 / 옅은, 약한, 서투른",
+    "vPoint": "pale in comparison(비교하면 초라해지다)이라는 비유 표현."
+  },
+  {
+    "id": 236,
+    "chapter": 6,
+    "word": "press",
+    "meaning": "누르다, 압박하다 / 언론, 보도",
+    "vPoint": "the press(언론)라는 명사 뜻이 정치·사회 지문에 매우 자주 등장."
+  },
+  {
+    "id": 237,
+    "chapter": 6,
+    "word": "life",
+    "meaning": "삶, 살아 있음, 생(명)",
+    "vPoint": "come to life(활기를 띠다), for life(평생 동안)처럼 관용 표현이 다양."
   }
 ]
