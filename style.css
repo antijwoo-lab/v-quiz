@@ -545,18 +545,3 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{
 @media(prefers-reduced-motion:reduce){
   *{scroll-behavior:auto!important;transition:none!important}
 }
-
-
-/* Range editing: allow temporary invalid values without fighting the user. */
-.range-card.range-invalid{
-  border-color:rgba(215,0,21,.22);
-  background:#fff7f7;
-}
-.range-note.range-error{
-  color:#c7252e;
-}
-.primary-btn:disabled{
-  opacity:.42;
-  cursor:default;
-  transform:none;
-}
